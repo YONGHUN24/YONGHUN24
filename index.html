@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome to Seongwon's Site</title>
+    <link rel="stylesheet" href="my style.css">
+
 </head>
 <body>
      <header>
@@ -23,7 +25,7 @@
             <img src="./images/bigdata.jpg" alt="">
            <h2>좋아하는 음악</h2>
            <audio src="./media/music01.mp3"controls></audio>
-           <h2>북금곰을 살려요</h2>
+           <h2 style="font-size:x-large; color: indigo;">북금곰을 살려요</h2>
            <video src="./media/movie.mp4"controls></video> 
            <iframe width="893" height="502" src="https://www.youtube.com/embed/q2NEYjYHSNE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
            <hr>
@@ -60,9 +62,16 @@
              <a href="http://www.deu.ac.kr" target="_blank"> 동의대학교></a><br>
              <a href="http://www.google.com">구글></a><br>
              <a href="./start.html"> 연습문서</a><br>
-             <a href="#profile"> 나의 프로필></a>
+             <a href="#profile"> 나의 프로필</a>
          </div>
      </section> 
+     <div id="login"></div>
+     <form action="#">
+         아이디 : <input type="text"name="id">
+         비밀번호 : <input type="text"name="password">
+        <input type="submit">
+        <input type="reset">
+     </form>
      <footer>
          <div id="copyright"> 주소와 저작권</div>
          <div id="sns">트위터, 인스타, 패스북주소</div>
